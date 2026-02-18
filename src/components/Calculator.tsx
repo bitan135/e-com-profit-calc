@@ -420,7 +420,7 @@ export function Calculator() {
                                     <div className="p-3 bg-gray-50 dark:bg-zinc-800/50 rounded-lg space-y-2">
                                         <div className="flex justify-between text-sm">
                                             <span className="text-gray-500">Monthly Revenue</span>
-                                            <span className="font-medium">₹{(sellingPrice * ordersPerMonth).toLocaleString('en-IN')}</span>
+                                            <span className="font-medium text-gray-900 dark:text-gray-100">₹{(sellingPrice * ordersPerMonth).toLocaleString('en-IN')}</span>
                                         </div>
                                         <div className="flex justify-between text-sm">
                                             <span className="text-gray-500">Monthly Profit</span>
